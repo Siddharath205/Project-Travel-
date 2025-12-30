@@ -130,7 +130,7 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: none;
     color: var(--text-primary);
     font-weight: 500;
-    font-size: 13px;
+    font-size: 20px;
     padding: 6px 0;
     position: relative;
     display: flex;
@@ -138,7 +138,20 @@ h1, h2, h3, h4, h5, h6 {
     gap: 5px;
     transition: color 0.3s ease;
 }
-
+.contact-btn{
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+.contact-btn a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 20px;
+    display: inline-block;
+}
 .nav-link::after {
     content: '';
     position: absolute;
